@@ -1,4 +1,4 @@
-[git install]
+[local git install]
 git-scm.com/download/win
 + Add a Git Bash profiles to Windows Terminal
 - Git GUI Here
@@ -8,7 +8,6 @@ git-scm.com/download/win
 git config --global user.email jmoneykorea@outlook.com
 git config --list
 
-
 [github.com]
 repository - new - jcode01
 copy: https://github.com/JmoneyKorea/jcode01.git
@@ -16,5 +15,13 @@ copy: https://github.com/JmoneyKorea/jcode01.git
 [git과 github 연결하기]
 github에 있는 repo를 가져와서 로컬에 동일한 이름으로 만들어줌
 해당폴더에서 오른쪽마우스 > "open git bash here" > git clone https://github.com/JmoneyKorea/jmoneycode.git
+
+[vscode와 github 연동하기]
+vscode에서 open > clone된 jcode01폴더 선택
+source control에 보면 연결되있음
+
+[commit and push]
+push를 해야지 github로 넘어감
+
 
 
